@@ -65,13 +65,13 @@ int main(){
     printf("Super poder: %.2f\n\n", super_poder2);
 
     printf("Comparação entre as cartas: \n");
-    printf("População: %d\n",cidade1.populacao > cidade2.populacao ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.populacao, cidade2.populacao);
-    printf("Àrea : %d\n", cidade1.area > cidade2.area ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.area, cidade2.area);
-    printf("PIB: %d\n", cidade1.pib > cidade2.pib ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.pib, cidade2.pib);
-    printf("Número de pontos turísticos: %d\n", cidade1.pontos_turisticos > cidade2.pontos_turisticos ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.pontos_turisticos, cidade2.pontos_turisticos);
-    printf("Densidade Populacional: %d\n", densidade1 < densidade2 ? "Carta 1 venceu" : "Carta 2 venceu", densidade1, densidade2);
-    printf("PIB per capita: %d\n", pib_per_capita1 > pib_per_capita2 ? "Carta 1 venceu" : "Carta 2 venceu", pib_per_capita1, pib_per_capita2);
-    printf("Super poder: %d\n\n", super_poder1 > super_poder2 ? "Carta 1 venceu" : "Carta 2 venceu", super_poder1, super_poder2);
+    printf("População: %s (Carta 1: %d, Carta 2: %d)\n",cidade1.populacao > cidade2.populacao ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.populacao, cidade2.populacao);
+    printf("Àrea : %s (Carta 1: %.2f km², Carta 2: %.2f km²)\n", cidade1.area > cidade2.area ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.area, cidade2.area);
+    printf("PIB: %s (Carta 1: %.2f bi, Carta 2: %.2f bi)", cidade1.pib > cidade2.pib ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.pib, cidade2.pib);
+    printf("Número de pontos turísticos: %s (Carta 1: %d, Carta 2: %d)\n", cidade1.pontos_turisticos > cidade2.pontos_turisticos ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.pontos_turisticos, cidade2.pontos_turisticos);
+    printf("Densidade Populacional: %s (Carta 1: %.2f, Carta 2: %.2f)\n", densidade1 < densidade2 ? "Carta 1 venceu" : "Carta 2 venceu", densidade1, densidade2);
+    printf("PIB per capita: %s (Carta 1: %.2f R$, Carta 2: %.2f R$)\n", pib_per_capita1 > pib_per_capita2 ? "Carta 1 venceu" : "Carta 2 venceu", pib_per_capita1, pib_per_capita2);
+    printf("Super poder: %s (Carta 1: .%2f, Carta 2: %.2f)\n\n", super_poder1 > super_poder2 ? "Carta 1 venceu" : "Carta 2 venceu", super_poder1, super_poder2);
 
 
 
