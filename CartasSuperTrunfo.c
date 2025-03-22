@@ -60,10 +60,10 @@ int main(){
             printf("População: %s (Carta 1: %d, Carta 2: %d)\n", cidade1.populacao > cidade2.populacao ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.populacao, cidade2.populacao);
             break;
         case 2:
-            printf("Área: %s (Carta 1: %d, Carta 2: %d)\n", cidade1.area > cidade2.area ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.area, cidade2.area);
+            printf("Área: %s (Carta 1: %.2f km², Carta 2: %.2f km²)\n", cidade1.area > cidade2.area ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.area, cidade2.area);
             break;
         case 3: 
-            printf("PIB: %s (Carta 1: %d, Carta 2: %d)\n", cidade1.pib > cidade2.pib ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.pib, cidade2.pib);
+            printf("PIB: %s (Carta 1: %.2f bi, Carta 2: %.2f bi)\n", cidade1.pib > cidade2.pib ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.pib, cidade2.pib);
             break;
         case 4:
             printf("Números de pontos turísticos: %s (carta 1: %d, Carta 2: %d)\n", cidade1.pontos_turisticos > cidade2.pontos_turisticos ? "Carta 1 venceu" : "Carta 2 venceu", cidade1.pontos_turisticos, cidade2.pontos_turisticos);
@@ -76,6 +76,7 @@ int main(){
             break;
         case 7:
         printf("Super poder: %s (Carta 1: %.2f, Carta 2: %.2f)\n", super_poder1 > super_poder2 ? "Carta 1 venceu" : "Carta 2 venceu", super_poder1, super_poder2);
+        break;
         case 0: 
         printf("Saindo...\n");
         break;
