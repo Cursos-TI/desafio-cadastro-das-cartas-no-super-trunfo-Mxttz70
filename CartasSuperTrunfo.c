@@ -72,7 +72,7 @@ int main(){
             printf("Densidade populacional: %s (Carta 1: %.2f, Carta 2: %.2f)\n", densidade1 < densidade2 ? "Carta 1 venceu" : "Carta 2 venceu", densidade1, densidade2);
             break;
         case 6: 
-            printf("PIB per capita: %s (Carta 1: %.2f, Carta 2: %.2f)\n", pib_per_capita1 > pib_per_capita2 ? "Carta  1 venceu" : "Carta 2 venceu", pib_per_capita1, pib_per_capita2);
+            printf("PIB per capita: %s (Carta 1: R$ %.2f, Carta 2: R$ %.2f)\n", pib_per_capita1 > pib_per_capita2 ? "Carta  1 venceu" : "Carta 2 venceu", pib_per_capita1, pib_per_capita2);
             break;
         case 7:
         printf("Super poder: %s (Carta 1: %.2f, Carta 2: %.2f)\n", super_poder1 > super_poder2 ? "Carta 1 venceu" : "Carta 2 venceu", super_poder1, super_poder2);
