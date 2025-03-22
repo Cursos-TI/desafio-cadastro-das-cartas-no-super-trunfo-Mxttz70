@@ -58,7 +58,7 @@ int main(){
     scanf(" %c", &segundoatributo);
 
     if(primeiroatributo == segundoatributo){
-        printf("Você fez a mesma escolha...");
+        printf("Você fez a mesma escolha...\n");
     } else {
         switch (segundoatributo)
         {
